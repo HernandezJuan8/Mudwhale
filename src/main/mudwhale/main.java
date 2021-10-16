@@ -1,5 +1,7 @@
 package main.mudwhale;
 
+import mc.mudwhale.MC;
+
 public class main {
 
 	

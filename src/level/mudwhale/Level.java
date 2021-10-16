@@ -1,4 +1,4 @@
-package main.mudwhale;
+package level.mudwhale;
 
 public class Level {
 	private int level;

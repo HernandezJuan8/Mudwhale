@@ -1,4 +1,7 @@
-package main.mudwhale;
+package mc.mudwhale;
+
+import inventory.mudwhale.Equipment;
+import level.mudwhale.Level;
 
 public class MC {
 
@@ -21,6 +24,7 @@ public class MC {
 	private Equipment inventory;
 	
 	// Current weapon, or current equip
+	
 	//Armor on class
 	
 	public MC() {

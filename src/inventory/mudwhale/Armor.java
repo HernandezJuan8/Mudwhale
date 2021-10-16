@@ -1,4 +1,4 @@
-package main.mudwhale;
+package inventory.mudwhale;
 
 public class Armor {
 
