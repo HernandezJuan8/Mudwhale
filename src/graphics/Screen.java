@@ -2,18 +2,34 @@ package graphics;
 import java.awt.*;
 import javax.swing.JFrame;
 
-public class Screen {
-	
-	private GraphicsDevice vc;
-	
+public class Screen extends JFrame{
+
+	/**
+	 * SN
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public Screen() {
-		GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
-		vc = env.getDefaultScreenDevice();
+		initGUI();
 	}
 	
-	public void setFullScreen(DisplayMode dm,JFrame window){
-		window.setUndecorated(true);
-		window.setResizable(false);
-		vc.setFullScreenWindow(window);
+	private void initGUI() {
+		//add(new MainMenu());
+		add(new Background());
+		
+		//setSize(640,480);
+		pack();
+		setResizable(false);
+		
+		setTitle("Testing GUI");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
+	public static void main(String[] args) {
+		EventQueue.invokeLater(() ->{ 
+			Screen sc = new Screen();
+			sc.setVisible(true);
+		});
+
+	}
+
 }
