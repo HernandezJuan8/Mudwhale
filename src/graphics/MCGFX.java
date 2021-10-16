@@ -22,7 +22,7 @@ public class MCGFX extends Sprite {
 	}
 
 	private void initMCGFX() {
-		loadImage("character.png");
+		loadImage("C:/Users/herna/Desktop/Game1/src/graphics/character.png");
 		getImageDimensions();
 	}
 
