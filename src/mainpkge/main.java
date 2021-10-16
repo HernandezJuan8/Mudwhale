@@ -1,3 +1,4 @@
+package mainpkge;
 
 public class main {
 
@@ -13,7 +14,7 @@ public class main {
 		main master = new main();
 		
 		
-		
+
 		
 
 	}

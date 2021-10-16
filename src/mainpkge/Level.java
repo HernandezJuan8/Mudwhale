@@ -1,3 +1,4 @@
+package mainpkge;
 
 public class Level {
 	private int level;

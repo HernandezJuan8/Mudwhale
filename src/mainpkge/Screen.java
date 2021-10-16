@@ -1,3 +1,4 @@
+package mainpkge;
 import java.awt.*;
 import javax.swing.JFrame;
 
