@@ -9,4 +9,10 @@ public class Screen {
 		GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
 		vc = env.getDefaultScreenDevice();
 	}
+	
+	public void setFullScreen(DisplayMode dm,JFrame window){
+		window.setUndecorated(true);
+		window.setResizable(false);
+		vc.setFullScreenWindow(window);
+	}
 }
