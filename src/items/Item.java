@@ -1,4 +1,4 @@
-package items.mudwhale;
+package items;
 
 public class Item {
 

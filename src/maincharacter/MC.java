@@ -1,7 +1,7 @@
-package mc.mudwhale;
+package maincharacter;
 
-import inventory.mudwhale.Equipment;
-import level.mudwhale.Level;
+import inventory.Equipment;
+import level.Level;
 
 public class MC {
 

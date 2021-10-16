@@ -1,11 +1,10 @@
-package main.mudwhale;
+package main;
 
-import mc.mudwhale.MC;
+import maincharacter.MC;
 
 public class main {
 
-	
-	private MC maincharacter;
+private MC maincharacter;
 	
 	
 	public main() {

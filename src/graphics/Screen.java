@@ -1,4 +1,4 @@
-package graphics.mudwhale;
+package graphics;
 import java.awt.*;
 import javax.swing.JFrame;
 

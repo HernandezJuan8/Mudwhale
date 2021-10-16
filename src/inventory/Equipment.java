@@ -1,4 +1,4 @@
-package inventory.mudwhale;
+package inventory;
 
 public class Equipment {
 	
