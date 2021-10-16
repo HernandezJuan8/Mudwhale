@@ -1,4 +1,4 @@
-package mainpkge;
+package main.mudwhale;
 import java.awt.*;
 import javax.swing.JFrame;
 

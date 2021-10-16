@@ -1,4 +1,4 @@
-package mainpkge;
+package main.mudwhale;
 
 public class Armor {
 

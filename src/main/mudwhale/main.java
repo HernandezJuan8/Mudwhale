@@ -1,4 +1,4 @@
-package mainpkge;
+package main.mudwhale;
 
 public class main {
 
@@ -18,5 +18,4 @@ public class main {
 		
 
 	}
-
 }
