@@ -1,6 +1,6 @@
-# Mudwhale, an RPG game.
-Being developed by Juan Hernandez
-Making a basic RPG with leveling system, basic armor, basic weapons, inventory space.
+# Mudwhale, a RPG.
+Currently Being developed by Juan Hernandez
+Making a basic RPG with turn based combat, leveling system, basic armor, basic weapons, inventory space.
 Currently being developed
 * Main character
 
