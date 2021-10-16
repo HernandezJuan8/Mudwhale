@@ -3,7 +3,7 @@ Currently Being developed by Juan Hernandez
 Making a basic RPG with turn based combat, leveling system, basic armor, basic weapons, inventory space.
 Currently being developed
 * Main character
-
+* Basic graphics 
 Some RPG mechanics to be implemented
 * Comments everywhere lol
 * Healing potions
