@@ -17,8 +17,8 @@ public class Screen extends JFrame{
 		add(new MainMenu());
 		//add(new Background());
 		
-		//setSize(640,480);
-		pack();
+		setSize(640,480);
+		//pack();
 		setResizable(false);
 		
 		setTitle("Testing GUI");

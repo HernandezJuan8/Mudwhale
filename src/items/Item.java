@@ -23,6 +23,10 @@ public abstract class Item {
 	 */
 	public int itemLevel;
 	
+	/**
+	 * ID of the item.
+	 */
+	public int ID;
 	
 	public void setName(String name) {
 		this.itemName = name;
@@ -46,5 +50,13 @@ public abstract class Item {
 	
 	public int getitemLevel() {
 		return itemLevel;
+	}
+	
+	public int getID() {
+		return ID;
+	}
+	
+	public void setID(int ID) {
+		this.ID = ID;
 	}
 }
