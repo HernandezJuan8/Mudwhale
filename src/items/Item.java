@@ -9,24 +9,24 @@ public abstract class Item {
 	 * itemType = 2 then it is a piece of armor
 	 * itemTpe = 3 then it is a non wearable item
 	 */
-	public int itemType;
+	private int itemType;
 	
 	/**
 	 * Name of the item
 	 */
-	public String itemName;
+	private String itemName;
 	
 	/**
 	 * Level of item ranging from 1-5.
 	 * 1 being worst
 	 * 5 being best.
 	 */
-	public int itemLevel;
+	private int itemLevel;
 	
 	/**
 	 * ID of the item.
 	 */
-	public int ID;
+	private int ID;
 	
 	public void setName(String name) {
 		this.itemName = name;
