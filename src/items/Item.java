@@ -28,6 +28,11 @@ public abstract class Item {
 	 */
 	private int ID;
 	
+	/**
+	 * Description of item.
+	 */
+	private String desc;
+	
 	public void setName(String name) {
 		this.itemName = name;
 	}
@@ -58,5 +63,13 @@ public abstract class Item {
 	
 	public void setID(int ID) {
 		this.ID = ID;
+	}
+	
+	public String getDesc() {
+		return desc;
+	}
+	
+	public void setDesc(String desc) {
+		this.desc = desc;
 	}
 }

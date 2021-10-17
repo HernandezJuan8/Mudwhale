@@ -2,20 +2,20 @@ package items;
 
 public abstract class Weapon extends Item{
 
-	private int attack;
+	private int damage;
 	
 	private boolean equip;
 	
-	public void setAttack(int attack) {
-		this.attack = attack;
+	public void setDamage(int attack) {
+		this.damage = attack;
 	}
 	
 	public void setEquip(boolean equip) {
 		this.equip = equip; 
 	}
 	
-	public int getAttack() {
-		return attack;
+	public int getDamage() {
+		return damage;
 	}
 	
 	public boolean isEquipped() {

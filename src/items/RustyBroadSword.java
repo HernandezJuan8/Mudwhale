@@ -6,9 +6,13 @@ public class RustyBroadSword extends Weapon {
 		setItemType(1);
 		setName("Rusty Broad Sword");
 		setItemLevel(1);
-		setAttack(25);
+		setDamage(25);
 		setEquip(false);
 		setID(0);
+		setDesc("This Rusty Broad sword is pretty blunt and a bit green..... kinda weird.");
 	}
 
+	public RustyBroadSword getRustyBroadSword() {
+		return this;
+	}
 }
