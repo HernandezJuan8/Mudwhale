@@ -8,7 +8,7 @@ public class WestianRapier extends Weapon {
 		setItemLevel(3);
 		setDamage(55);
 		setEquip(false);
-		setID(0);
+		setID(3);
 		setDesc("A sword originally from the land of West. A standard military weapon.");
 	}
 }

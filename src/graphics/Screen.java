@@ -21,7 +21,7 @@ public class Screen extends JFrame{
 		//pack();
 		setResizable(false);
 		
-		setTitle("Testing GUI");
+		setTitle("MudWhale");
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
