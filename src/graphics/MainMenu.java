@@ -27,7 +27,9 @@ public class MainMenu extends JPanel {
 
 	private void initMainMenu() {
 		setBackground(Color.GREEN);
-		//BG = Toolkit.getDefaultToolkit().createImage("MainMenuBG.png");
+		BG = Toolkit.getDefaultToolkit().createImage("MainMenuBG.png");
+		
+		
 		setLayout(new FlowLayout());
 		
 		
@@ -49,7 +51,8 @@ public class MainMenu extends JPanel {
 		add(exitButton);
 	}
 	
-	public void paintComponent(Graphics g) {
+	@Override
+	protected void paintComponent(Graphics g) {
 		//super.paint(g);
 		g.drawImage(BG,0,0,null);
 	}
